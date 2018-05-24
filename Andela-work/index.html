@@ -1,0 +1,62 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> My Calculator </title>
+		<link rel="stylesheet" type="text/css"  href="calculator.css" >
+		<script src="calculator.js"></script>
+	</head>
+	<body>
+		<!---------MY Calc title-----------------> 
+		<div class = "head" >
+			<h1>MY CALCULATOR APPLICATION</h1>
+		</div>
+		
+		<!---------MY Calc application----------->
+		<div class = "myCalc">
+			<div class = "myCalc-header">
+				<h3>My Calculator</h3>
+			</div>
+			<div class = "myCalc-body">
+				<h1> My Calculator Application</h1>
+				<div class ="myCalc-innerBody">
+					<!------MY Calc add operation------->
+					<div class = "add">
+						<input type = "number" id = "number1" required />
+						<img src = "icons/add.png" alt = "add" />
+						<input type = "number" id = "number2" required />
+						<img src = "icons/equal.png" alt = "equal" />
+						<input id = "sum" value="" readonly />
+						<button name = "add" onclick = "addMyCalc()">Add</button>
+					</div>
+					<!------MY Calc subtract operation------->
+					<div class = "subtract">
+						<input type = "number" id = "number3" required />
+						<img src = "icons/subtract.png" alt = "subtract" />
+						<input type = "number" id = "number4" required />
+						<img src = "icons/equal.png" alt = "equal" />
+						<input id = "difference" value="" readonly />
+						<button name = "subtract" onclick = "subtractMyCalc()">Subtract</button>
+					</div>
+					<!------MY Calc multiply operation------->
+					<div class = "multiply">
+						<input type = "number" id = "number5" required />
+						<img src = "icons/multiply.png" alt = "multiply" />
+						<input type = "number" id = "number6" required />
+						<img src = "icons/equal.png" alt = "equal" />
+						<input id = "product" value="" readonly />
+						<button name = "multiply" onclick = "multiplyMyCalc()">Multiply</button>
+					</div>
+					<!------MY Calc divide operation------->
+					<div class = "divide">
+						<input type = "number" id = "number7" required />
+						<img src = "icons/divide.png" alt = "divide" />
+						<input type = "number" id = "number8" required />
+						<img src = "icons/equal.png" alt = "equal" />
+						<input id = "quotient" value="" readonly />
+						<button name = "divide" onclick = "divideMyCalc()">Divide</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+/*----------------entire page body css--------------------------*/
+body{
+	margin: 5% 10% 10% 10%;
+	border-top: 1px solid #BEBEBE;
+	border-right: 1px solid #BEBEBE;
+	border-bottom: 1px solid #BEBEBE;
+}
+
+/*-----------------heading css----------------------------------*/
+.head{
+	text-align: center;
+	text-decoration: underline;
+	font-family: Calibri;
+	color: #009ACD;
+}
+
+/*----------------calculator appliccation css-------------------*/
+.myCalc{
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+}
+
+.myCalc-header{
+	border-bottom: 1px solid black;
+	margin-right: 75%;
+	padding: 2px 20px 2px 15px;
+	background-color: #BEBEBE;
+	font-family: Calibri;
+}
+
+.myCalc-body{
+	padding: 6% 17% 10% 3%;
+	background-color: #BEBEBE;
+	font-family: Calibri;
+}
+
+.myCalc-innerBody{
+	margin-left:10%;
+}
+
+.myCalc-innerBody div div {
+	float:right;
+}
+
+.myCalc-innerBody div div div{
+	float:left;
+}
+
+input{
+	height: 60px;
+	width:  90px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	border: 1px solid black;
+	margin-right: 10px;
+	margin-left:  10px;
+}
+
+img{
+	height: 30px;
+}
+
+button{
+	width: 100px;
+	height: 45px;
+	color: white;
+	font-family: Calibri;
+	font-weight: bold;
+	margin-top:20px;
+	border:1px solid #BEBEBE;
+	font-size:25px
+}
+
+.add button{
+	background-color: #3CB371;
+	
+}
+
+.subtract button{
+	background-color:#B22222;
+}
+
+.multiply button{
+	background-color: #009ACD;
+}
+
+.divide button{
+	background-color: #FFC125;
+}
